@@ -11,3 +11,12 @@ The UCI Human Activity Recognition (HAR) dataset contains sensor data collected 
 - 2,947 testing samples
 - 561 features
 - 6 activities
+## Deep Learning Model
+
+A fully connected neural network was used to classify the six human activities.
+
+Architecture:
+
+561 features → 128 → 64 → 32 → 6 outputs
+
+The model was trained using the Adam optimizer and categorical cross-entropy loss.
